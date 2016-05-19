@@ -55,6 +55,12 @@ HTML+CSS
 * DOM：文档对象模型DOM（Document Object Model）定义访问和处理HTML文档的标准方法。DOM 将HTML文档呈现为带有元素、属性和文本的树结构（节点树）
   * 三种常见的DOM节点：1. 元素节点：上图中<html>、<body>、<p>等都是元素节点，即标签。 2. 文本节点:向用户展示的内容，如<li>...</li>中的JavaScript、DOM、CSS等文本。  3. 属性节点:元素属性，如<a>标签的链接属性href="http://www.imooc.com"。
 * innerHTML 属性用于获取或替换 HTML 元素的内容。
+* indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。
+* Math.round(x) 四舍五入
+* random() 方法可返回介于 0 ~ 1（大于或等于 0 但小于 1 )之间的一个随机数
+* 数组方法![](http://img.mukewang.com/533295ab0001dead05190599.jpg)
+* window对象方法：
+![]( http://img.mukewang.com/535483720001a54506670563.jpg)
 
 
 
