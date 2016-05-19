@@ -61,6 +61,10 @@ HTML+CSS
 * 数组方法![](http://img.mukewang.com/533295ab0001dead05190599.jpg)
 * window对象方法：
 ![]( http://img.mukewang.com/535483720001a54506670563.jpg)
+* history对象： 保存曾经浏览过的页面url
+    * 属性：length，url数量
+    * 方法：1.back（）2.forward() 3.go();
+
 
 
 
