@@ -64,6 +64,8 @@ HTML+CSS
 * history对象： 保存曾经浏览过的页面url
     * 属性：length，url数量
     * 方法：1.back（）2.forward() 3.go();
+* nextSibling 属性可返回某个节点之后紧跟的节点（处于同一树层级中）。
+
 
 
 
