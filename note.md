@@ -74,7 +74,22 @@ HTML+CSS
   offsetLeft:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算左侧位置 。
 
   offsetTop:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算顶端位置 。
-* 添加事件的方法：1.HTML事件处理程序，HTML 与JS耦合度太高   2.DOM0级事件处理程序，先获取变量，在给变量添加事件。3.DOM2级事件处理程序，addEventListener() removeEventListenr(); 例：btn3.addEventListener('click', showmes, false);三个参数：第一个是添加事件，需要去掉‘on’，第二个是 调用的函数， 第三个，bool表示是否是捕获事件，false表示是冒泡事件。
+* 添加事件的方法：
+  * 1.HTML事件处理程序，HTML 与JS耦合度太高  
+  *  2.DOM0级事件处理程序，先获取变量，在给变量添加事件，各个版本的浏览器通用。
+  *  3.DOM2级事件处理程序，addEventListener() removeEventListenr(); 例：btn3.addEventListener('click', showmes, false);三个参数：第一个是添加事件，需要去掉‘on’，第二个是 调用的函数， 第三个，bool表示是否是捕获事件，false表示是冒泡事件。DOM2 级，可以添加多个响应事件。
+  *  4.IE事件处理程序：attachEvent() detachEvent()，两个参数，第一个事件处理名称，第二个调用的函数。例：btn3.attachEvent('onclick', mes);
+  *  5.跨浏览器的解决方法：定义一个对象，封装两个方法，一个添加，一个删除，对不同的方法进行判断，然后进行添加或删除。例：```var eventUtil = {
+  addHandler:function(element, type,handler) {
+  if(element.addEventListener) {
+  //Dom2
+  }
+  else if (element.attachEvent) {
+  // IE
+  } else {
+  // Dom0
+  }
+  }}```
 
  
 
