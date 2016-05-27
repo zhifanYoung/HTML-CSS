@@ -91,9 +91,15 @@ HTML+CSS
   }
   }}```
 * DOM中的事件 对象：
+  * type:获取事件 的类型
+  * target：获取事件 的目标
   * 阻止冒泡：执行完操作之后，调用：event.stopPropagation();
   * 阻止默认行为：event.preventDefault();
-
+* IE 中的事件 对象：
+  * type
+  * srcElement ：获取事件的目标
+  * cancelBubble属性 ：阻止事件的冒泡，设置为ture表示阻止
+  * returnValue属性：阻止事件的默认行为，设置为false表示阻止默认行为。
 
 
 
