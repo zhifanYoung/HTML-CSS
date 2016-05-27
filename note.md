@@ -74,7 +74,7 @@ HTML+CSS
   offsetLeft:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算左侧位置 。
 
   offsetTop:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算顶端位置 。
-* 添加事件的方法：1.HTML事件处理程序，HTML 与JS耦合度太高
+* 添加事件的方法：1.HTML事件处理程序，HTML 与JS耦合度太高   2.DOM0级事件处理程序，先获取变量，在给变量添加事件。3.DOM2级事件处理程序，addEventListener() removeEventListenr(); 例：btn3.addEventListener('click', showmes, false);三个参数：第一个是添加事件，需要去掉‘on’，第二个是 调用的函数， 第三个，bool表示是否是捕获事件，false表示是冒泡事件。
 
  
 
