@@ -98,7 +98,7 @@ HTML+CSS
 * IE 中的事件 对象：
   * type
   * srcElement ：获取事件的目标
-  * cancelBubble属性 ：阻止事件的冒泡，设置为ture表示阻止
+  * cancelBubble属性：阻止事件的冒泡，设置为ture表示阻止
   * returnValue属性：阻止事件的默认行为，设置为false表示阻止默认行为。
 
 
