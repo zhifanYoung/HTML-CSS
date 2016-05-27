@@ -90,6 +90,14 @@ HTML+CSS
   // Dom0
   }
   }}```
+* DOM中的事件 对象：
+  * 阻止冒泡：执行完操作之后，调用：event.stopPropagation();
+  * 阻止默认行为：event.preventDefault();
+
+
+
+
+
 
  
 
