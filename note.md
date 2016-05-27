@@ -74,6 +74,8 @@ HTML+CSS
   offsetLeft:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算左侧位置 。
 
   offsetTop:获取指定对象相对于版面或由 offsetParent 属性指定的父坐标的计算顶端位置 。
+* 添加事件的方法：1.HTML事件处理程序，HTML 与JS耦合度太高
+
  
 
 
