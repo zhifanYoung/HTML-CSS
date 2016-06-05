@@ -101,6 +101,13 @@ HTML+CSS
   * cancelBubble属性：阻止事件的冒泡，设置为ture表示阻止
   * returnValue属性：阻止事件的默认行为，设置为false表示阻止默认行为。
 * clientX clientY 表示鼠标在浏览器中的坐标
+* 运动（动画）：
+  * 速度
+  * 缓冲运动
+  * 多物体运动
+  * 任意值变化
+  * 链式运动
+  * 同时运动
 
 
 
