@@ -112,6 +112,10 @@ HTML+CSS
 ## jQuery
 * :contains(text)过滤选择器, 内容选择器
 * :has(selector)过滤选择器,使用包含的元素名称来过滤
+* :visible过滤选择器,获取的是全部可见的元素
+* [attribute=value]属性选择器
+* [attribute*=value]属性选择器,获取属性值中包含指定内容的全部元素
+* :text表单文本选择器
 
 
 
