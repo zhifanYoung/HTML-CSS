@@ -109,6 +109,13 @@ HTML+CSS
   * 链式运动
 * date -- ![](date.png)
 
+## jQuery
+* :contains(text)过滤选择器, 内容选择器
+* :has(selector)过滤选择器,使用包含的元素名称来过滤
+
+
+
+
 
 
 
