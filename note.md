@@ -189,7 +189,9 @@ UI插件
 
 ### 
 Input 标签
-type 是 button 和 submit  都会是按钮显示 ; text 输入框.
+  1.type 是 button 和 submit  都会是按钮显示 ; text 输入框.
+  2.```<input/>```是自闭合标签，不能定义复杂样式按钮， 图文混排的按钮，直接用 ```<button>```标签。
+
 
 
 
