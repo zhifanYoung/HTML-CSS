@@ -191,10 +191,13 @@ UI插件
 Input 标签
   1.type 是 button 和 submit  都会是按钮显示 ; text 输入框.
   2.```<input/>```是自闭合标签，不能定义复杂样式按钮， 图文混排的按钮，直接用 ```<button>```标签。
+  3.type 是submit 点击之后，可以把表单中的信息，直接提交到服务器。type为button，不可以
 
 
 ### ```<FORM>```标签
 1. action 属性， 表示表单会被提交到服务器的哪一个端口。
+2. target 可以设置成搜索的结果在新的标签页中显示
+3. method 提交方式：get post
 
 
 
